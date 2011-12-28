@@ -841,6 +841,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = ibplugin;
 				ZERO_LINK = YES;
 			};
@@ -872,6 +873,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = ibplugin;
 				ZERO_LINK = NO;
 			};
@@ -891,6 +893,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Framework/SR_LeopardFrameworkEmbed-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = (
@@ -901,6 +904,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -918,6 +922,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Framework/SR_LeopardFrameworkEmbed-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = (
@@ -928,6 +933,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -977,6 +983,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -1004,6 +1011,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -1036,6 +1044,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = ibplugin;
 				ZERO_LINK = YES;
 			};
@@ -1067,6 +1076,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = ibplugin;
 				ZERO_LINK = NO;
 			};
@@ -1085,6 +1095,7 @@
 				INFOPLIST_FILE = Demo/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -1100,6 +1111,7 @@
 				INFOPLIST_FILE = Demo/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
