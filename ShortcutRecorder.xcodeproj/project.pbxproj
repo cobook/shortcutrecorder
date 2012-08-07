@@ -905,7 +905,7 @@
 				);
 				PRODUCT_NAME = ShortcutRecorder;
 				PROVISIONING_PROFILE = "";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -934,7 +934,7 @@
 				);
 				PRODUCT_NAME = ShortcutRecorder;
 				PROVISIONING_PROFILE = "";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -986,7 +986,7 @@
 				);
 				PRODUCT_NAME = ShortcutRecorder;
 				PROVISIONING_PROFILE = "";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 				ZERO_LINK = YES;
 			};
 			name = Debug;
@@ -1015,7 +1015,7 @@
 				);
 				PRODUCT_NAME = ShortcutRecorder;
 				PROVISIONING_PROFILE = "";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 				ZERO_LINK = NO;
 			};
 			name = Release;
